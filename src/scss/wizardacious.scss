@@ -1,0 +1,24 @@
+/****************************************************************
+* Wizard
+****************************************************************/
+.wizard { 
+    height: 240px; 
+    overflow: auto;
+
+    &.loading { background: url(../images/loading.gif) no-repeat 50% 50%; }
+
+    label.error { }
+    label.error.popover { }
+    label.error.popover.right { }
+
+    .step { }
+
+    .navigation { }
+    .navigation .wizard-back,
+    .navigation .wizard-next { cursor: pointer; }
+    .navigation .wizard-back.disabled,
+    .navigation .wizard-next.disabled { cursor: default; }
+    .navigation .wizard-back:hover,
+    .navigation .wizard-next:hover { }
+    .navigation .text { }
+}

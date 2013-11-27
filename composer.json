@@ -1,0 +1,18 @@
+{
+    "name": "ryanbriscall/wizardacious",
+    "description": "Simple PHP library for creating a wizard",
+    "keywords": ["wizard", "wizardacious", "steps", "library", "basic"],
+    "homepage": "https://github.com/ryanbriscall/wizardacious",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Briscall",
+            "email": "ryanbriscall@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": { "Wizardacious": "src/" }
+    },
+}

@@ -1,0 +1,64 @@
+/* @import "normalize"; */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1em;
+}
+
+/****************************************************************
+* Bootstrap customization.
+****************************************************************/
+/* Removed "+" operator so that .help-block styles work without
+ * the requirement of being next to the input element, because
+ * our validation script is injecting an additional element "label"
+ * in between the input and the .help-block element.
+ */
+.form-horizontal .help-block {
+  margin-top: 10px;
+}
+
+legend + .control-group {
+  -webkit-margin-top-collapse: collapse;
+}
+
+/****************************************************************
+* Wizard
+****************************************************************/
+.wizard {
+  border: 4px solid #CCC;
+  padding: 10px;
+  margin-right: 520px;
+}
+.wizard.loading {
+  background-image: url(../images/loading.gif);
+}
+.wizard label.error {
+  position: absolute;
+  display: inline !important;
+  border: 1px solid red;
+  color: red;
+  text-align: left;
+  padding: 4px 6px;
+  text-align: left;
+  font-weight: normal;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.wizard label.error.popover {
+  top: auto;
+  left: auto;
+}
+.wizard label.error.popover.right {
+  margin-left: 5px;
+}
+.wizard .navigation .wizard-reset {
+  margin-left: 2em;
+}
+
+#debug {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  max-width: 500px;
+}

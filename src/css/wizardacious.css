@@ -1,0 +1,18 @@
+/****************************************************************
+* Wizard
+****************************************************************/
+.wizard {
+  height: 240px;
+  overflow: auto;
+}
+.wizard.loading {
+  background: url(../images/loading.gif) no-repeat 50% 50%;
+}
+.wizard .navigation .wizard-back,
+.wizard .navigation .wizard-next {
+  cursor: pointer;
+}
+.wizard .navigation .wizard-back.disabled,
+.wizard .navigation .wizard-next.disabled {
+  cursor: default;
+}
