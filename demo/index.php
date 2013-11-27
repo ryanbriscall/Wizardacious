@@ -1,6 +1,6 @@
 <?php if (isset($_GET['api']) && $_POST) { 
 sleep(1);
-echo '{"messages":"Success","errors":"Failed"}'; // JSON
+echo '{"messages":"Success","errors":""}'; // JSON
 exit;
 } ?><!DOCTYPE html>
 <html>
