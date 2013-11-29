@@ -30,7 +30,7 @@ exit;
 <script src="assets/js/jquery.maskedinput.min.js"></script>
 <script src="assets/js/jquery.validate.js"></script>
 
-<script src="assets/js/wizardacious.js"></script>
+<script src="assets/js/wizardacious.min.js"></script>
 <script>$(document).ready(function() { Wizardacious.action('my'); });</script>
 
 </body>
