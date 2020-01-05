@@ -3,7 +3,7 @@
 A library for handling a series of steps in a "wizard" fashion (using PHP), in
 an HTML/JavaScript/AJAX environment.
 
-[View Demo](http://demo.ryanbriscall.com/projects/php/wizardacious/demo)
+[View Demo](http://ryanbriscall.com/wizardacious/demo)
 
 ## Features
 
